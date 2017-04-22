@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-Chris1
+  host: IoT-Chris1
+  disk_quota: 1024M
+  services:
+  - IoT-Chris1-cloudantNoSQLDB
+  - IoT-Chris1-iotf-service
+  - availability-monitoring-auto
